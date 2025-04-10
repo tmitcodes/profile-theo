@@ -64,6 +64,7 @@
         <div>
             <h1>Theo Maranatha Immanuel</h1>
             <p>Web Developer & Designer</p>
+            <button>Pelajari lebih lanjut</button>
         </div>
         <img src="profile.jpg" alt="Foto Theo" width="200">
     </div>
