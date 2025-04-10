@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Theo Maranatha Immanuel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            padding: 10px;
+            text-align: center;
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+        }
+        .bio-boxes {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .box {
+            border: 1px solid #000;
+            padding: 20px;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+    </div>
+    
+    <div class="container">
+        <div>
+            <h1>Theo Maranatha Immanuel</h1>
+            <p>Web Developer & Designer</p>
+        </div>
+        <img src="profile.jpg" alt="Foto Theo" width="200">
+    </div>
+    
+    <div class="bio-boxes">
+        <div class="box">Nama: Theo Maranatha Immanuel</div>
+        <div class="box">Usia: 25 Tahun</div>
+        <div class="box">Profesi: Web Developer</div>
+        <div class="box">Lokasi: Jakarta, Indonesia</div>
+        <div class="box">Email: theo@example.com</div>
+        <div class="box">Telepon: +62 812-3456-7890</div>
+    </div>
+    
+    <h2>Portofolio</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Proyek</th>
+                <th>Deskripsi</th>
+                <th>Tahun</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Proyek 1</td>
+                <td>Pembuatan website perusahaan</td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>Proyek 2</td>
+                <td>Pengembangan aplikasi mobile</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>Proyek 3</td>
+                <td>Desain UI/UX untuk startup</td>
+                <td>2021</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
